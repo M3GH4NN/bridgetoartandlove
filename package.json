@@ -1,0 +1,68 @@
+{
+  "name": "bridge-to-art-and-love",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://bridgetoartandlove.com",
+  "dependencies": {
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/user-event": "^14.6.1",
+    "bootstrap": "^5.3.3",
+    "gh-pages": "^6.3.0",
+    "jquery": "^3.7.1",
+    "lucide-react": "^0.479.0",
+    "npm-check-updates": "^17.1.15",
+    "react": "^19.0.0",
+    "react-bootstrap": "^2.10.9",
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.3.0",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^4.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "```bash\n git add -A\n git commit -m \"commit message\"\n git push origin main\n npm run build\n npm run deploy\n ```",
+  "main": "postcss.config.js",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.0",
+    "postcss-loader": "^8.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M3GH4NN/bridge-to-art-and-love.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M3GH4NN/bridge-to-art-and-love/issues"
+  }
+}
