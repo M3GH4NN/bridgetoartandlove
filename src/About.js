@@ -81,8 +81,10 @@ export default function About() {
           />
           <p className="text-center" style={{ maxWidth: "600px" }}>
             Hi! I'm Bridget, an artist passionate about creating expressive and
-            bold canvas paintings. My work explores identity, love, and the
-            beauty of everyday life. Thank you for supporting independent art!
+            bold canvas paintings. I earned my arts degree from NYU Tisch School
+            of the Arts, where I honed my craft and deepened my understanding of
+            artistic expression. My work explores queer identity and love. Thank
+            you for supporting independent art!
           </p>
           <h3 className="h3 fw-bold">Meghann - Co-Owner</h3>
           <p className="text-center" style={{ maxWidth: "600px" }}>
