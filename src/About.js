@@ -73,6 +73,12 @@ export default function About() {
             style={{ height: "100px", width: "100px", objectFit: "cover" }}
           />
           <h3 className="h3 fw-bold">Bridget - The Artist</h3>
+          <img
+            src="/images/pridge.jpg"
+            alt="Bridget - The Artist"
+            className="border border-white shadow-lg mb-3"
+            style={{ height: "300px", width: "auto", objectFit: "cover" }}
+          />
           <p className="text-center" style={{ maxWidth: "600px" }}>
             Hi! I'm Bridget, an artist passionate about creating expressive and
             bold canvas paintings. My work explores identity, love, and the
