@@ -131,7 +131,7 @@ export default function BridgeToArtAndLove() {
 
         {/* Contact Section */}
         <section id="contact" className="text-center">
-          <h2 className="h2 fw-bold">Contact Me</h2>
+          <h2 className="h2 fw-bold">Contact Us</h2>
           <div className="d-flex justify-content-center gap-3">
             <Button
               variant="outline-light"

@@ -75,22 +75,22 @@ export default function About() {
           <h3 className="h3 fw-bold">Bridget - The Artist</h3>
           <img
             src="/images/pridge.jpg"
-            alt="Bridget - The Artist"
+            alt="Bridget - Artist and Co-Owner"
             className="border border-white shadow-lg mb-3"
             style={{ height: "300px", width: "auto", objectFit: "cover" }}
           />
           <p className="text-center" style={{ maxWidth: "600px" }}>
-            Hi! I'm Bridget, an artist passionate about creating expressive and
-            bold canvas paintings. I earned my arts degree from NYU Tisch School
-            of the Arts, where I honed my craft and deepened my understanding of
-            artistic expression. My work explores queer identity and love. Thank
-            you for supporting independent art!
+            Hi! I'm Bridget, an artist who brings LGBTQ+ identity and pride to life 
+            through bold, expressive canvas paintings. I earned my arts degree from NYU Tisch School
+            of the Arts, where I deepened my understanding of
+            artistic expression.My work features artistic renditions 
+            of various pride flags, celebrating the beauty and diversity of the queer community.
           </p>
 
           <h3 className="h3 fw-bold">Meghann - Co-Owner</h3>
           <img
             src="/images/IMG_20220410_183500.jpg"
-            alt="Meghann - Co-Owner"
+            alt="Meghann - Operations Manager and Co-Owner"
             className="border border-white shadow-lg mb-3"
             style={{ height: "300px", width: "auto", objectFit: "cover" }}
           />
@@ -106,7 +106,7 @@ export default function About() {
 
         {/* Contact Section */}
         <section id="contact" className="text-center">
-          <h2 className="h2 fw-bold">Contact Me</h2>
+          <h2 className="h2 fw-bold">Contact Us</h2>
           <div className="d-flex justify-content-center gap-3">
             <Button
               variant="outline-light"
