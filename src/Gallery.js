@@ -9,7 +9,7 @@ import {
   Navbar,
 } from "react-bootstrap";
 import { Mail, Instagram } from "lucide-react";
-import { HashLink as Link } from "react-router-hash-link";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -41,9 +41,15 @@ export default function Gallery() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-            <Nav.Link as={Link} to="/#/">Home</Nav.Link>
-<Nav.Link as={Link} to="/#/gallery">Gallery</Nav.Link>
-<Nav.Link as={Link} to="/#/about">About</Nav.Link>
+              <Nav.Link as={Link} to="/">
+                Home
+              </Nav.Link>
+              <Nav.Link as={Link} to="/gallery">
+                Gallery
+              </Nav.Link>
+              <Nav.Link as={Link} to="/about">
+                About
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

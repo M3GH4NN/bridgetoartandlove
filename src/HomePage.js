@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Card, Button, Nav, Navbar } from "react-bootstrap";
 import { Mail, Instagram, ShoppingBag, Calendar } from "lucide-react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { HashLink as Link } from "react-router-hash-link";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 export default function BridgeToArtAndLove() {
   return (
@@ -26,13 +26,13 @@ export default function BridgeToArtAndLove() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link as={Link} to="/#/">
+              <Nav.Link as={Link} to="/">
                 Home
               </Nav.Link>
-              <Nav.Link as={Link} to="/#/gallery">
+              <Nav.Link as={Link} to="/gallery">
                 Gallery
               </Nav.Link>
-              <Nav.Link as={Link} to="/#/about">
+              <Nav.Link as={Link} to="/about">
                 About
               </Nav.Link>
             </Nav>
