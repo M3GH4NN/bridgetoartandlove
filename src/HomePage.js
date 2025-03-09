@@ -3,6 +3,7 @@ import { Container, Card, Button, Nav, Navbar } from "react-bootstrap";
 import { Mail, Instagram, ShoppingBag, Calendar } from "lucide-react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Footer from "./components/Footer";
 
 export default function BridgeToArtAndLove() {
   return (
@@ -12,16 +13,21 @@ export default function BridgeToArtAndLove() {
       style={{ fontFamily: "Tahoma, sans-serif" }}
     >
       {/* Navigation Bar */}
-      <Navbar bg="secondary" variant="dark" expand="lg" className="mb-4">
+      <Navbar
+        style={{ backgroundColor: "#212529" }}
+        variant="dark"
+        expand="lg"
+        className="mb-4"
+      >
         <Container>
           <Navbar.Brand href="#">
             <img
               src="/images/logo1.webp"
-              alt="Bridge to Art and Love Logo"
+              alt="A Bridge to Art & Love Logo"
               className="me-2"
               style={{ height: "60px", width: "60px", objectFit: "cover" }}
             />
-            A Bridge to Art and Love
+            A Bridge to Art & Love
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -55,7 +61,7 @@ export default function BridgeToArtAndLove() {
             />
           </div>
           <h1 className="display-3 mb-0 text-center mt-4">
-            A Bridge to Art and Love
+            A Bridge to Art & Love
           </h1>
         </header>
 
@@ -71,20 +77,21 @@ export default function BridgeToArtAndLove() {
         >
           <img
             src="/images/logo1.webp"
-            alt="Bridge to Art and Love Logo"
+            alt="A Bridge to Art & Love Logo"
             className="border border-white shadow-lg mb-3"
             style={{ height: "100px", width: "100px", objectFit: "cover" }}
           />
           <p className="text-center" style={{ maxWidth: "600px" }}>
-            Hi! I'm Bridget, an artist passionate about creating expressive and
-            bold canvas paintings. My work explores identity, love, and the
-            beauty of everyday life. Thank you for supporting independent art!
+            Hi! We are <i>A Bridge to Art & Love</i>, two passionate queer women
+            creating bold, expressive canvas paintings inspired by pride flags.
+            Our work celebrates the beauty and diversity of the LGBTQIA2S+
+            community. Thank you for supporting independent art!
           </p>
         </section>
 
-        {/* Where to Find My Art */}
+        {/* Where to Find Our Art */}
         <section className="text-center mb-5">
-          <h2 className="h2 fw-bold">Where to Find My Art</h2>
+          <h2 className="h2 fw-bold">Where to Find Our Art</h2>
           <Card
             className="bg-secondary text-white mx-auto"
             style={{ maxWidth: "400px" }}
@@ -117,20 +124,20 @@ export default function BridgeToArtAndLove() {
           </Card>
         </section>
 
-        {/* Shop My Art */}
+        {/* Shop Our Art */}
         <section id="shop" className="text-center mb-5">
-          <h2 className="h2 fw-bold">Shop My Art</h2>
+          <h2 className="h2 fw-bold">Shop Our Art</h2>
           <Button
             variant="primary"
             href="your-etsy-shop-link.com"
             target="_blank"
           >
-            <ShoppingBag className="me-2" /> Visit My Shop
+            <ShoppingBag className="me-2" /> Visit Our Shop
           </Button>
         </section>
 
         {/* Contact Section */}
-        <section id="contact" className="text-center">
+        {/* <section id="contact" className="text-center">
           <h2 className="h2 fw-bold">Contact Us</h2>
           <div className="d-flex justify-content-center gap-3">
             <Button
@@ -147,7 +154,8 @@ export default function BridgeToArtAndLove() {
               <Instagram className="me-2" /> Instagram
             </Button>
           </div>
-        </section>
+        </section> */}
+        <Footer />
       </Container>
     </Container>
   );

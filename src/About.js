@@ -18,6 +18,7 @@ import {
 } from "lucide-react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Footer from "./components/Footer";
 
 // Inside Navbar:
 
@@ -29,16 +30,21 @@ export default function About() {
       style={{ fontFamily: "Tahoma, sans-serif" }}
     >
       {/* Navigation Bar */}
-      <Navbar bg="secondary" variant="dark" expand="lg" className="mb-4">
+      <Navbar
+        style={{ backgroundColor: "#212529" }}
+        variant="dark"
+        expand="lg"
+        className="mb-4"
+      >
         <Container>
           <Navbar.Brand href="#">
             <img
               src="/images/logo1.webp"
-              alt="Bridge to Art and Love Logo"
+              alt="A Bridge to Art & Love Logo"
               className="me-2"
               style={{ height: "60px", width: "60px", objectFit: "cover" }}
             />
-            A Bridge to Art and Love
+            A Bridge to Art & Love
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -68,11 +74,11 @@ export default function About() {
         >
           <img
             src="/images/logo1.webp"
-            alt="Bridge to Art and Love Logo"
+            alt="A Bridge to Art & Love Logo"
             className="border border-white shadow-lg mb-3"
             style={{ height: "100px", width: "100px", objectFit: "cover" }}
           />
-          <h3 className="h3 fw-bold">Bridget - The Artist</h3>
+          <h3 className="h3 fw-bold">Bridget - Artist and Co-Owner</h3>
           <img
             src="/images/pridge.jpg"
             alt="Bridget - Artist and Co-Owner"
@@ -80,14 +86,17 @@ export default function About() {
             style={{ height: "300px", width: "auto", objectFit: "cover" }}
           />
           <p className="text-center" style={{ maxWidth: "600px" }}>
-            Hi! I'm Bridget, an artist who brings LGBTQ+ identity and pride to life 
-            through bold, expressive canvas paintings. I earned my arts degree from NYU Tisch School
-            of the Arts, where I deepened my understanding of
-            artistic expression.My work features artistic renditions 
-            of various pride flags, celebrating the beauty and diversity of the queer community.
+            Hi! I'm Bridget, an artist who brings LGBTQ+ identity and pride to
+            life through bold, expressive canvas paintings. I earned my arts
+            degree from NYU Tisch School of the Arts, where I deepened my
+            understanding of artistic expression. My work features artistic
+            renditions of various pride flags, celebrating the beauty and
+            diversity of the queer community.
           </p>
 
-          <h3 className="h3 fw-bold">Meghann - Co-Owner</h3>
+          <h3 className="h3 fw-bold">
+            Meghann - Operations Manager and Co-Owner
+          </h3>
           <img
             src="/images/IMG_20220410_183500.jpg"
             alt="Meghann - Operations Manager and Co-Owner"
@@ -95,8 +104,8 @@ export default function About() {
             style={{ height: "300px", width: "auto", objectFit: "cover" }}
           />
           <p className="text-center" style={{ maxWidth: "600px" }}>
-            Meghann handles the tech and business operations of Bridge to Art
-            and Love. She is a CODA (Child of Deaf Adults) and works as a DevOps
+            Meghann handles the tech and business operations of A Bridge to Art
+            & Love. She is a CODA (Child of Deaf Adults) and works as a DevOps
             Lead Engineer for Convo, a VRS company, where accessibility and
             inclusion are central to her work. With a passion for efficiency and
             problem-solving, she ensures that everything behind the scenes runs
@@ -105,24 +114,7 @@ export default function About() {
         </section>
 
         {/* Contact Section */}
-        <section id="contact" className="text-center">
-          <h2 className="h2 fw-bold">Contact Us</h2>
-          <div className="d-flex justify-content-center gap-3">
-            <Button
-              variant="outline-light"
-              href="mailto:info@bridgetoartandlove.com"
-            >
-              <Mail className="me-2" /> Email
-            </Button>
-            <Button
-              variant="outline-light"
-              href="your-instagram-link"
-              target="_blank"
-            >
-              <Instagram className="me-2" /> Instagram
-            </Button>
-          </div>
-        </section>
+        <Footer />
       </Container>
     </Container>
   );

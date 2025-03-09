@@ -10,7 +10,7 @@ import {
 } from "react-bootstrap";
 import { Mail, Instagram } from "lucide-react";
 import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
-
+import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const artworks = [
@@ -27,16 +27,21 @@ export default function Gallery() {
       style={{ fontFamily: "Tahoma, sans-serif" }}
     >
       {/* Navigation Bar */}
-      <Navbar bg="secondary" variant="dark" expand="lg" className="mb-4">
+      <Navbar
+        style={{ backgroundColor: "#212529" }}
+        variant="dark"
+        expand="lg"
+        className="mb-4"
+      >
         <Container>
           <Navbar.Brand href="#">
             <img
               src="/images/logo1.webp"
-              alt="Bridge to Art and Love Logo"
+              alt="A Bridge to Art & Love Logo"
               className="me-2"
               style={{ height: "60px", width: "60px", objectFit: "cover" }}
             />
-            A Bridge to Art and Love
+            A Bridge to Art & Love
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -70,24 +75,7 @@ export default function Gallery() {
           ))}
         </Row>
         {/* Contact Section */}
-        <section id="contact" className="text-center">
-          <h2 className="h2 fw-bold">Contact Us</h2>
-          <div className="d-flex justify-content-center gap-3">
-            <Button
-              variant="outline-light"
-              href="mailto:info@bridgetoartandlove.com"
-            >
-              <Mail className="me-2" /> Email
-            </Button>
-            <Button
-              variant="outline-light"
-              href="your-instagram-link"
-              target="_blank"
-            >
-              <Instagram className="me-2" /> Instagram
-            </Button>
-          </div>
-        </section>
+        <Footer />
       </Container>
     </Container>
   );
