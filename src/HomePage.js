@@ -135,7 +135,7 @@ export default function BridgeToArtAndLove() {
           <div className="d-flex justify-content-center gap-3">
             <Button
               variant="outline-light"
-              href="mailto:contact@bridgetoartandlove.com"
+              href="mailto:info@bridgetoartandlove.com"
             >
               <Mail className="me-2" /> Email
             </Button>
