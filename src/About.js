@@ -86,7 +86,7 @@ export default function About() {
             style={{ height: "300px", width: "auto", objectFit: "cover" }}
           />
           <p className="text-center" style={{ maxWidth: "600px" }}>
-            Hi! I'm Bridget, an artist who brings LGBTQ+ identity and pride to
+            I'm Bridget, an artist who brings LGBTQ+ identity and pride to
             life through bold, expressive canvas paintings. I earned my arts
             degree from NYU Tisch School of the Arts, where I deepened my
             understanding of artistic expression. My work features artistic
@@ -104,11 +104,11 @@ export default function About() {
             style={{ height: "300px", width: "auto", objectFit: "cover" }}
           />
           <p className="text-center" style={{ maxWidth: "600px" }}>
-            Meghann handles the tech and business operations of A Bridge to Art
-            & Love. She is a CODA (Child of Deaf Adults) and works as a DevOps
+            I'm Meghann, I handle the tech and business operations of <i>A Bridge to Art
+            & Love</i>. I am a CODA (Child of Deaf Adults) and work as a DevOps
             Lead Engineer for Convo, a VRS company, where accessibility and
-            inclusion are central to her work. With a passion for efficiency and
-            problem-solving, she ensures that everything behind the scenes runs
+            inclusion are central to my work. With a passion for efficiency and
+            problem-solving, I ensure that everything behind the scenes runs
             smoothly so Bridget can focus on her art.
           </p>
         </section>

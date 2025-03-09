@@ -91,7 +91,7 @@ export default function BridgeToArtAndLove() {
 
         {/* Where to Find Our Art */}
         <section className="text-center mb-5">
-          <h2 className="h2 fw-bold">Where to Find Our Art</h2>
+          <h2 className="h2 fw-bold">Where To Find Our Art</h2>
           <Card
             className="bg-secondary text-white mx-auto"
             style={{ maxWidth: "400px" }}
@@ -137,24 +137,6 @@ export default function BridgeToArtAndLove() {
         </section>
 
         {/* Contact Section */}
-        {/* <section id="contact" className="text-center">
-          <h2 className="h2 fw-bold">Contact Us</h2>
-          <div className="d-flex justify-content-center gap-3">
-            <Button
-              variant="outline-light"
-              href="mailto:info@bridgetoartandlove.com"
-            >
-              <Mail className="me-2" /> Email
-            </Button>
-            <Button
-              variant="outline-light"
-              href="your-instagram-link"
-              target="_blank"
-            >
-              <Instagram className="me-2" /> Instagram
-            </Button>
-          </div>
-        </section> */}
         <Footer />
       </Container>
     </Container>
