@@ -86,13 +86,14 @@ export default function About() {
             artistic expression. My work explores queer identity and love. Thank
             you for supporting independent art!
           </p>
+
+          <h3 className="h3 fw-bold">Meghann - Co-Owner</h3>
           <img
             src="/images/IMG_20220410_183500.jpg"
             alt="Meghann - Co-Owner"
             className="border border-white shadow-lg mb-3"
             style={{ height: "300px", width: "auto", objectFit: "cover" }}
           />
-          <h3 className="h3 fw-bold">Meghann - Co-Owner</h3>
           <p className="text-center" style={{ maxWidth: "600px" }}>
             Meghann handles the tech and business operations of Bridge to Art
             and Love. She is a CODA (Child of Deaf Adults) and works as a DevOps
