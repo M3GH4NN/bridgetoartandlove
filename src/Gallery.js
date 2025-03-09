@@ -1,17 +1,9 @@
 import React from "react";
-import {
-  Container,
-  Row,
-  Col,
-  Card,
-  Button,
-  Nav,
-  Navbar,
-} from "react-bootstrap";
-import { Mail, Instagram } from "lucide-react";
-import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Container, Row, Col, Card, Nav, Navbar } from "react-bootstrap";
+import { HashRouter as Link } from "react-router-dom";
 import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
+import NavigationBar from "./components/Navbar"; // Import the new Navbar component
 
 const artworks = [
   { title: "Artwork 1", img: "https://via.placeholder.com/300", link: "#" },
@@ -27,39 +19,7 @@ export default function Gallery() {
       style={{ fontFamily: "Tahoma, sans-serif" }}
     >
       {/* Navigation Bar */}
-      <Navbar
-        style={{ backgroundColor: "#212529" }}
-        variant="dark"
-        expand="lg"
-        className="mb-4"
-      >
-        <Container>
-          <Navbar.Brand href="#">
-            <img
-              src="/images/logo1.webp"
-              alt="A Bridge to Art & Love Logo"
-              className="me-2"
-              style={{ height: "60px", width: "60px", objectFit: "cover" }}
-            />
-            A Bridge to Art & Love
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto">
-              <Nav.Link as={Link} to="/">
-                Home
-              </Nav.Link>
-              <Nav.Link as={Link} to="/gallery">
-                Gallery
-              </Nav.Link>
-              <Nav.Link as={Link} to="/about">
-                About
-              </Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-
+      <NavigationBar />
       <Container>
         <h1 className="text-center mb-4">Gallery</h1>
         <Row className="g-4">

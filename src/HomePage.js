@@ -1,9 +1,10 @@
 import React from "react";
 import { Container, Card, Button, Nav, Navbar } from "react-bootstrap";
-import { Mail, Instagram, ShoppingBag, Calendar } from "lucide-react";
+import { ShoppingBag, Calendar } from "lucide-react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter as Link } from "react-router-dom";
 import Footer from "./components/Footer";
+import NavigationBar from "./components/Navbar"; // Import the new Navbar component
 
 export default function BridgeToArtAndLove() {
   return (
@@ -13,38 +14,7 @@ export default function BridgeToArtAndLove() {
       style={{ fontFamily: "Tahoma, sans-serif" }}
     >
       {/* Navigation Bar */}
-      <Navbar
-        style={{ backgroundColor: "#212529" }}
-        variant="dark"
-        expand="lg"
-        className="mb-4"
-      >
-        <Container>
-          <Navbar.Brand href="#">
-            <img
-              src="/images/logo1.webp"
-              alt="A Bridge to Art & Love Logo"
-              className="me-2"
-              style={{ height: "60px", width: "60px", objectFit: "cover" }}
-            />
-            A Bridge to Art & Love
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto">
-              <Nav.Link as={Link} to="/">
-                Home
-              </Nav.Link>
-              <Nav.Link as={Link} to="/gallery">
-                Gallery
-              </Nav.Link>
-              <Nav.Link as={Link} to="/about">
-                About
-              </Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
+      <NavigationBar />
       <Container>
         {/* Header Section - Beach Image + Title */}
         <header className="text-center mb-4 position-relative">
