@@ -17,6 +17,9 @@ import {
   Palette,
 } from "lucide-react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { HashLink as Link } from "react-router-hash-link";
+
+// Inside Navbar:
 
 export default function About() {
   return (
@@ -40,10 +43,15 @@ export default function About() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/gallery">Gallery</Nav.Link>
-              <Nav.Link href="/about">About</Nav.Link>
-              <Nav.Link href="/shop">Shop</Nav.Link>
+              <Nav.Link as={Link} to="/#/">
+                Home
+              </Nav.Link>
+              <Nav.Link as={Link} to="/#/gallery">
+                Gallery
+              </Nav.Link>
+              <Nav.Link as={Link} to="/#/about">
+                About
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
