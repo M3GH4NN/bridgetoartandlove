@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Button } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import { Mail, Instagram } from "lucide-react";
 
 export default function Footer() {

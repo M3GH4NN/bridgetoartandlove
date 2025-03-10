@@ -1,8 +1,7 @@
 import React from "react";
-import { Container, Card, Button, Nav, Navbar } from "react-bootstrap";
+import { Container, Card, Button } from "react-bootstrap";
 import { ShoppingBag, Calendar } from "lucide-react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { HashRouter as Link } from "react-router-dom";
 import Footer from "./components/Footer";
 import NavigationBar from "./components/Navbar"; // Import the new Navbar component
 
@@ -31,13 +30,13 @@ export default function BridgeToArtAndLove() {
             />
           </div>
           <h1 className="display-3 mb-0 text-center mt-4">
-            A Bridge to Art & Love
+            A Bridge To Art & Love
           </h1>
         </header>
 
         {/* Queer Art for Every Heart Section */}
         <h2 className="h2 fw-bold text-center mb-4">
-          Queer Art for Every Heart
+          Queer Art For Every Heart
         </h2>
 
         {/* About Me Section */}
@@ -47,12 +46,12 @@ export default function BridgeToArtAndLove() {
         >
           <img
             src="/images/logo1.webp"
-            alt="A Bridge to Art & Love Logo"
+            alt="A Bridge To Art & Love Logo"
             className="border border-white shadow-lg mb-3"
             style={{ height: "100px", width: "100px", objectFit: "cover" }}
           />
           <p className="text-center" style={{ maxWidth: "600px" }}>
-            Hi! We are <i>A Bridge to Art & Love</i>, two passionate queer women
+            Hi! We are <i>A Bridge To Art & Love</i>, two passionate queer women
             creating bold, expressive canvas paintings inspired by pride flags.
             Our work celebrates the beauty and diversity of the LGBTQIA2S+
             community. Thank you for supporting independent art!
@@ -99,7 +98,7 @@ export default function BridgeToArtAndLove() {
           <h2 className="h2 fw-bold">Shop Our Art</h2>
           <Button
             variant="primary"
-            href="your-etsy-shop-link.com"
+            href="https://abridgetoartandlove.etsy.com"
             target="_blank"
           >
             <ShoppingBag className="me-2" /> Visit Our Shop

@@ -14,11 +14,11 @@ export default function NavigationBar() {
         <Navbar.Brand href="/">
           <img
             src="/images/logo1.webp"
-            alt="A Bridge to Art & Love Logo"
+            alt="A Bridge To Art & Love Logo"
             className="me-2"
             style={{ height: "60px", width: "60px", objectFit: "cover" }}
           />
-          A Bridge to Art & Love
+          A Bridge To Art & Love
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -31,6 +31,12 @@ export default function NavigationBar() {
             </Nav.Link>
             <Nav.Link as={Link} to="/about">
               About
+            </Nav.Link>
+            <Nav.Link
+              href="https://abridgetoartandlove.etsy.com"
+              target="_blank"
+            >
+              Shop
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

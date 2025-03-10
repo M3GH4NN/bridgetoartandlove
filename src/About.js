@@ -24,7 +24,7 @@ export default function About() {
         >
           <img
             src="/images/logo1.webp"
-            alt="A Bridge to Art & Love Logo"
+            alt="A Bridge To Art & Love Logo"
             className="border border-white shadow-lg mb-3"
             style={{ height: "100px", width: "100px", objectFit: "cover" }}
           />
@@ -55,7 +55,7 @@ export default function About() {
           />
           <p className="text-center" style={{ maxWidth: "600px" }}>
             I'm Meghann, I handle the tech and business operations of{" "}
-            <i>A Bridge to Art & Love</i>. I am a CODA (Child of Deaf Adults)
+            <i>A Bridge To Art & Love</i>. I am a CODA (Child of Deaf Adults)
             and work as a DevOps Lead Engineer for Convo, a VRS company, where
             accessibility and inclusion are central to my work. With a passion
             for efficiency and problem-solving, I ensure that everything behind
