@@ -15,7 +15,11 @@ const artworks = [
     img: "/images/minis/ace-b1.jpg",
     link: "https://www.etsy.com/listing/1886267307/mini-asexual-pride-flag-canvas-2x2in",
   },
-  { title: "Artwork 3", img: "https://via.placeholder.com/300", link: "#" },
+  {
+    title: "Lesbian Pride Flag - Mini Canvas",
+    img: "images/minis/les-a1.jpg",
+    link: "#",
+  },
 ];
 
 export default function Gallery() {
