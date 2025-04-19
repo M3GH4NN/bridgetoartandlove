@@ -23,7 +23,7 @@ export default function About() {
           className="d-flex flex-column align-items-center text-center mb-5"
         >
           <img
-            src="/images/logo1.webp"
+            src="/images/logo.webp"
             alt="A Bridge To Art & Love Logo"
             className="border border-white shadow-lg mb-3"
             style={{ height: "100px", width: "100px", objectFit: "cover" }}

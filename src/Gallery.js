@@ -20,6 +20,61 @@ const artworks = [
     img: "images/minis/les-a1.jpg",
     link: "#",
   },
+  {
+    title: "Transgender Pride Flag - Mini Canvas",
+    img: "images/minis/trans-a1.jpg",
+    link: "#",
+  },
+  {
+    title: "Pansexual Pride Flag - Mini Canvas - Glitter",
+    img: "images/minis/pan-b1g.jpg",
+    link: "#",
+  },
+  {
+    title: "Lesbian Pride Flag - 4x4 Canvas",
+    img: "/images/4x4/lez-a2.jpg",
+    link: "https://www.etsy.com/listing/1886267307/mini-asexual-pride-flag-canvas-2x2in",
+  },
+  {
+    title: "Lesbian Pride Flag - 4x4 Canvas - Glitter",
+    img: "images/4x4/lez-b2g.jpg",
+    link: "#",
+  },
+  {
+    title: "Gay Male Pride Flag - 4x4 Canvas",
+    img: "images/4x4/gay-a1.jpg",
+    link: "#",
+  },
+  {
+    title: "Gay Male Pride Flag - 4x4 Canvas",
+    img: "images/4x4/gay-b1.jpg",
+    link: "#",
+  },
+  {
+    title: "Non-Binary Pride Flag - 4x4 Canvas",
+    img: "images/4x4/nb-a1.jpeg",
+    link: "#",
+  },
+  {
+    title: "Non-Binary Pride Flag - 4x4 Canvas",
+    img: "images/4x4/nb-b1.jpg",
+    link: "#",
+  },
+  {
+    title: "Genderqueer Pride Flag - 4x4 Canvas",
+    img: "images/4x4/gq-a1.jpg",
+    link: "#",
+  },
+  {
+    title: "Genderqueer Pride Flag - 4x4 Canvas",
+    img: "images/4x4/gq-b1.jpg",
+    link: "#",
+  },
+  {
+    title: "Transgender Pride Flag - 4x4 Canvas - Glitter",
+    img: "images/4x4/trans-b1g.jpg",
+    link: "#",
+  },
 ];
 
 export default function Gallery() {

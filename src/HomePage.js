@@ -45,7 +45,7 @@ export default function BridgeToArtAndLove() {
           className="d-flex flex-column align-items-center text-center mb-5"
         >
           <img
-            src="/images/logo1.webp"
+            src="/images/logo.webp"
             alt="A Bridge To Art & Love Logo"
             className="border border-white shadow-lg mb-3"
             style={{ height: "100px", width: "100px", objectFit: "cover" }}
@@ -67,26 +67,77 @@ export default function BridgeToArtAndLove() {
           >
             <Card.Body>
               <Calendar className="me-2" />
-              <p className="h4 fw-bold">June 2025</p>
+              <p />
+              <p className="h4 fw-bold">May 16-17, 2025</p>
               <p>
                 <a
-                  href="https://lostfoxlowertown.com/"
+                  href="https://nemaa.org/art-a-whirl/"
                   target="_blank"
                   className="text-white text-decoration-underline"
                   style={{ cursor: "pointer" }}
                 >
-                  Lost Fox
+                  <img
+                    src="/images/artawhirl2.png"
+                    alt="Art-A-Whirl Poster"
+                    className="img-fluid rounded mb-2"
+                  />
+                </a>
+                <br />
+                <a
+                  href="https://minneapoliscider.com/"
+                  target="_blank"
+                  className="text-white text-decoration-underline"
+                  style={{ cursor: "pointer" }}
+                >
+                  Art-A-Whirl Exhibit Location - Minneapolis Cider Co
                 </a>
               </p>
-              <p className="h4 fw-bold mt-3">July 2025</p>
+              <Calendar className="me-2" />
+
+              <p className="h4 fw-bold mt-3">June 2025</p>
               <p>
+              <a
+                  href="https://lostfoxlowertown.com/"
+                  target="_blank"
+                  className="text-white text-decoration-underline"
+                  style={{ cursor: "pointer" }}
+                >
+                  <img
+                    src="/images/lostfox.jpg"
+                    alt="Art-A-Whirl Poster"
+                    className="img-fluid rounded mb-2"
+                  />
+                </a>
                 <a
                   href="https://lostfoxlowertown.com/"
                   target="_blank"
                   className="text-white text-decoration-underline"
                   style={{ cursor: "pointer" }}
                 >
-                  Lost Fox
+                  Exhibit Location - Lost Fox
+                </a>
+              </p>
+              <Calendar className="me-2" />
+              <p className="h4 fw-bold mt-3">July 2025</p>
+              <p>
+              <a
+                  href="https://lostfoxlowertown.com/"
+                  target="_blank"
+                  className="text-white text-decoration-underline"
+                  style={{ cursor: "pointer" }}
+                >
+                  <img
+                    src="/images/lostfox.jpg"
+                    alt="Art-A-Whirl Poster"
+                    className="img-fluid rounded mb-2"
+                  />
+                </a><a
+                  href="https://lostfoxlowertown.com/"
+                  target="_blank"
+                  className="text-white text-decoration-underline"
+                  style={{ cursor: "pointer" }}
+                >
+                  Exhibit Location - Lost Fox
                 </a>
               </p>
             </Card.Body>

@@ -13,7 +13,7 @@ export default function NavigationBar() {
       <Container>
         <Navbar.Brand href="/">
           <img
-            src="/images/logo1.webp"
+            src="/images/logo.webp"
             alt="A Bridge To Art & Love Logo"
             className="me-2"
             style={{ height: "60px", width: "60px", objectFit: "cover" }}
