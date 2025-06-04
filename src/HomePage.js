@@ -131,7 +131,8 @@ export default function BridgeToArtAndLove() {
                     alt="Art-A-Whirl Poster"
                     className="img-fluid rounded mb-2"
                   />
-                </a><a
+                </a>
+                <a
                   href="https://lostfoxlowertown.com/"
                   target="_blank"
                   className="text-white text-decoration-underline"

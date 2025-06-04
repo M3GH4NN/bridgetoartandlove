@@ -33,7 +33,7 @@ const artworks = [
   {
     title: "Lesbian Pride Flag - 4x4 Canvas",
     img: "/images/4x4/lez-a2.jpg",
-    link: "#",
+    link: "https://www.etsy.com/listing/1886267307/mini-asexual-pride-flag-canvas-2x2in",
   },
   {
     title: "Lesbian Pride Flag - 4x4 Canvas - Glitter",
